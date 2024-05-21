@@ -1,0 +1,1 @@
+x=MsgBox("Hello! This is from aihkw's GitHub", vbInformation + vbOKOnly, "It worked!")
