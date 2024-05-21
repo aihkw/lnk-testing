@@ -1,1 +1,1 @@
-cmd /c "powershell -Command "(New-Object System.Net.WebClient).DownloadFile('url', 'path'); Start-Process 'path'"
+cmd /c powershell Invoke-WebRequest $URL -OutFile $PATH; Start-Process $PATH
